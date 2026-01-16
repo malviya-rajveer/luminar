@@ -233,11 +233,11 @@ export const Navbar = () => {
               className="relative flex cursor-pointer items-center p-4"
             >
               <IconMoon
-                className="absolute scale-0 dark:scale-100 dark:rotate-0"
+                className="absolute scale-0 rotate-45 transition-all duration-300 dark:scale-100 dark:rotate-0"
                 size={20}
               ></IconMoon>
               <IconSun
-                className="absolute scale-100 rotate-45 dark:scale-0"
+                className="absolute scale-100 text-black transition-all duration-300 dark:scale-0 dark:rotate-45"
                 size={20}
               ></IconSun>
             </button>

@@ -12,7 +12,7 @@ export const Hero = () => {
       <motion.div
         initial={{
           opacity: 0,
-          y: 20,
+          y: 10,
         }}
         animate={{
           opacity: 1,
@@ -62,7 +62,7 @@ export const Hero = () => {
       <motion.div
         initial={{
           opacity: 0,
-          y: -20,
+          y: -10,
         }}
         animate={{
           opacity: 1,

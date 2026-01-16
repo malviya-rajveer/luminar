@@ -239,7 +239,7 @@ const NotTranslated_Photos = ({
   shuffledProfile: Profiles[];
 }) => {
   return (
-    <div className="flex gap-0.5 md:h-20 md:gap-2 lg:gap-4 xl:gap-8">
+    <div className="pointer-events-none flex gap-0.5 md:h-20 md:gap-2 lg:gap-4 xl:gap-8">
       {shuffledProfile.map((data, idx) => {
         return (
           <div
@@ -266,7 +266,7 @@ const Translated_Photos = ({
   shuffledProfile: Profiles[];
 }) => {
   return (
-    <div className="flex gap-0.5 md:h-20 md:translate-x-10 md:gap-2 lg:gap-4 xl:gap-8">
+    <div className="pointer-events-none flex gap-0.5 md:h-20 md:translate-x-10 md:gap-2 lg:gap-4 xl:gap-8">
       {shuffledProfile.map((data, idx) => {
         return (
           <div
