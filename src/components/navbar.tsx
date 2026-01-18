@@ -12,7 +12,18 @@ export const Navbar = () => {
   const { theme, setTheme } = useTheme();
   return (
     <div className="fixed top-0 z-50 h-14 w-full border border-x-0 border-t-0 border-b-neutral-400 backdrop-blur-sm dark:border-b-white/40">
-      <div
+      <motion.div
+        initial={{
+          opacity: 0,
+          y: -20,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          duration: 0.3,
+        }}
         className={cn(
           "mx-auto flex h-full items-center justify-between",
           "md:w-2xl lg:w-4xl xl:w-6xl",
@@ -249,7 +260,7 @@ export const Navbar = () => {
             </button>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
