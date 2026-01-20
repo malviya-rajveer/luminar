@@ -61,7 +61,7 @@ export const Navbar = () => {
                   <motion.div
                     initial={{
                       opacity: 0,
-                      y: 5,
+                      y: -4,
                     }}
                     animate={{
                       opacity: 1,
@@ -69,10 +69,10 @@ export const Navbar = () => {
                     }}
                     exit={{
                       opacity: 0,
-                      y: 5,
+                      y: -4,
                     }}
                     transition={{
-                      duration: 0.3,
+                      duration: 0.25,
                       ease: "easeOut",
                     }}
                     className="absolute top-7 -right-50 flex h-77 w-150 justify-center rounded-2xl border border-neutral-300 bg-white/95 backdrop-blur-[3px] dark:border-neutral-800 dark:bg-neutral-950/90"
@@ -160,7 +160,7 @@ export const Navbar = () => {
                   <motion.div
                     initial={{
                       opacity: 0,
-                      y: 5,
+                      y: -4,
                     }}
                     animate={{
                       opacity: 1,
@@ -168,10 +168,10 @@ export const Navbar = () => {
                     }}
                     exit={{
                       opacity: 0,
-                      y: 5,
+                      y: -4,
                     }}
                     transition={{
-                      duration: 0.3,
+                      duration: 0.25,
                       ease: "easeOut",
                     }}
                     className="absolute top-7 -right-50 flex h-63 w-150 justify-center rounded-2xl border border-neutral-300 bg-white/95 backdrop-blur-[3px] dark:border-neutral-800 dark:bg-neutral-950/90"
