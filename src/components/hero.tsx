@@ -45,7 +45,7 @@ export const Hero = () => {
             scale: 1,
           }}
           whileTap={{
-            scale: 0.96,
+            scale: 0.97,
           }}
           className={cn(
             "group relative flex w-auto justify-center rounded-2xl tracking-wider",
