@@ -67,7 +67,6 @@ export const Encrypted_Text = () => {
         >
           <motion.div variants={word_stagger}>
             {"Y$9Wr#C5&".split("").map((char, idx, arr) => {
-              console.log(char);
               return (
                 <motion.span
                   className="inline-block"

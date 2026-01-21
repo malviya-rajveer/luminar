@@ -40,7 +40,13 @@ export const Hero = () => {
         <p className="pt-0.5 text-sm text-neutral-600 lg:text-[16px] xl:text-lg dark:text-neutral-300">
           get free dashboard expiriens now.{" "}
         </p>
-        <button
+        <motion.button
+          initial={{
+            scale: 1,
+          }}
+          whileTap={{
+            scale: 0.96,
+          }}
           className={cn(
             "group relative flex w-auto justify-center rounded-2xl tracking-wider",
             "bg-linear-to-b from-neutral-700 to-neutral-800 text-white",
@@ -52,7 +58,7 @@ export const Hero = () => {
         >
           visit dashboard
           <div className="absolute -bottom-0.5 hidden h-px w-40 bg-linear-to-r from-transparent via-white to-transparent opacity-0 transition-all duration-200 ease-in-out group-hover:opacity-100 dark:block"></div>
-        </button>
+        </motion.button>
       </motion.div>
 
       <div className="absolute inset-x-70 inset-y-50 top-120 bottom-0 -z-10 blur-[46px]">
