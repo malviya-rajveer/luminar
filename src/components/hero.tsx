@@ -57,7 +57,8 @@ export const Hero = () => {
           )}
         >
           visit dashboard
-          <div className="absolute -bottom-0.5 hidden h-px w-40 bg-linear-to-r from-transparent via-white to-transparent opacity-0 transition-all duration-200 ease-in-out group-hover:opacity-100 dark:block"></div>
+          <div className="absolute -bottom-0.5 hidden h-[3px] w-30 bg-linear-to-r from-transparent via-white to-transparent opacity-0 blur-[3px] transition-all duration-250 ease-in-out group-hover:opacity-100 dark:block"></div>
+          <div className="absolute -bottom-0.5 hidden h-px w-30 bg-linear-to-r from-transparent via-white to-transparent opacity-0 transition-all duration-250 ease-in-out group-hover:opacity-100 dark:block"></div>
         </motion.button>
       </motion.div>
 
